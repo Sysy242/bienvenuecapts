@@ -4,7 +4,7 @@ const client = new Discord.Client();
 
 var prefix = "C!"
 
-client.login("process.env.TOKEN")
+client.login(process.env.TOKEN);
 
 client.on("ready", () =>{
     console.log("je suis prêt")
